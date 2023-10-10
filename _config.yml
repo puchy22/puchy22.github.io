@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "es"
-title                    : "Puchy's blog"
+title                    : "0x7075636879"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Rubén De la Torre Vico"
-description              : "Blog personal con tutoriales sobre informática y CTFs"
+description              : "Blog personal con tutoriales sobre informática, linux, hacking y CTFs"
 url                      : "https://puchy22.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "puchy22/puchy22.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/terminal_icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "$(puchy)" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Rubén De la Torre Vico"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "3rd year student of computer engineering at the University of Granada. Average hacking and linux enjoyer. I use Arch btw."
+  bio              : "4rd year student of computer engineering at the University of Granada. Average hacking and linux enjoyer. I use Arch btw."
   location         : "Granada"
   email            : "rubendltv22@gmail.com"
   links:
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/puchy22"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -149,7 +149,6 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
 
 
 # Reading Files
@@ -287,8 +286,11 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
-      related: true
+      related: false
       show_date: true
       date_format: "%d-%m-%Y"
+      toc: true
+      toc_label: "Tabla de contenidos"
+      toc_sticky: true

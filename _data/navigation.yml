@@ -2,9 +2,11 @@
 main:
   - title: "Inicio"
     url: /
-  - title: "Writeups"
+  - title: "Hacking"
     # url:
-  - title: "Tutoriales"
+  - title: "Linux"
     # url
-  - title: "Cheatsheets"
+  - title: "Writeups"
+    # url
+  - title: "Sobre mí"
     # url
