@@ -1,5 +1,7 @@
 FROM jekyll:stable
 
+VOLUME /jekyll
+
 WORKDIR /jekyll
-COPY . /jekyll
-RUN jekyll build
+COPY --chown=jekyll:jekyll . /jekyll
+RUN bundle install && jekyll build
