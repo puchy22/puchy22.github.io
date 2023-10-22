@@ -289,8 +289,8 @@ defaults:
       comments: true
       share: true
       related: false
-      show_date: true
-      date_format: "%d-%m-%Y"
+      show_date: false
+      # date_format: "%d-%m-%Y"
       toc: true
       toc_label: "Tabla de contenidos"
       toc_sticky: true
