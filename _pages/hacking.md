@@ -1,5 +1,5 @@
 ---
-title: "hacking"
+title: "Hacking"
 layout: category
 permalink: /categoria/hacking/
 taxonomy: hacking
