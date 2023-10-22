@@ -3,10 +3,10 @@ main:
   - title: "Inicio"
     url: /
   - title: "Hacking"
-    # url:
+    url: /categoria/hacking/
   - title: "Linux"
-    # url
+    url: /categoria/linux/
   - title: "Writeups"
-    # url
+    url: /categoria/writeups/
   - title: "Sobre mí"
-    # url
+    url: /categoria/sobre_mi/
