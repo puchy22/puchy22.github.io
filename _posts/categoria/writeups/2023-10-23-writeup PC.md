@@ -149,5 +149,5 @@ Como no me daba respuesta la reverse shell, lo hice de una manera más simple da
 
 Y con esto ya podemos leer la flag del directorio `/root` y la máquina estaría resuelta!!!
 
-Como vemos se trata de una máquina muy interesante y un poco distinta al tratarse de un protocolo tan poco conocido que al principio puede desconcertar un poco. Sin más un saludo, gracias por leerme y a seguir hackeando.
+Como vemos se trata de una máquina muy interesante y un poco distinta al tratarse de un protocolo tan poco conocido que al principio puede desconcertar un poco. Sin más un saludo, gracias por leerme y a seguir aprendiendo.
 
