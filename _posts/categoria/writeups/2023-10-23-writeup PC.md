@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Writeup PC"
+title: "HackTheBox Writeup — PC"
 categories: writeups
 header:
     image: /assets/images/writeups/pc/cabecera.webp
