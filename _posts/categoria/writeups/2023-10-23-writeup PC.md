@@ -3,7 +3,7 @@ layout: single
 title: "HackTheBox Writeup — PC"
 categories: writeups
 header:
-    image: /assets/images/writeups/pc/cabecera.webp
+    image: /assets/images/writeups/pc/cabecera2.webp
 ---
 
 Hola a todos soy Puchy y este será mi primer writeup espero que de muchos sobre un ejercicio CTF, en este caso de la máquina *PC* de [Hack the Box](https://app.hackthebox.com/home), para este tipo de problemas intento seguir siempre una misma metodología que se irá viendo a lo largo de este ejercicio en la separación de los apartados. Espero que al que este leyendo esto le sea de utilidad, le guste y aprenda algo.
